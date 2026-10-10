@@ -1,0 +1,218 @@
+{
+  "repo": "MUSA",
+  "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+  "branch": "master",
+  "canonical_url": "https://github.com/akadaan310/MUSA",
+  "note": "Repository contains 8 strata (s01-s08), not 6. s01-s06 are DESIGN DOCs; s07-s08 are STRATUM glossary definitions.",
+  "strata": [
+    {
+      "path": "luna-agent/strata/s01-01-session-watch-system.md",
+      "title": "01 \u2014 Session-Watch System (LUNA-WATCH)",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 4994,
+      "sha256": "6022fadf379fff97",
+      "format": "markdown",
+      "status": "Status: DESIGN DOC. Not built. Placement: operator's host VM (portable systemd u",
+      "headings": [
+        "1. Purpose",
+        "2. Watched surfaces (7 contexts)",
+        "3. Observation semantics",
+        "4. The IHAVECONTROLS trigger",
+        "5. Archive layout (computational directory)",
+        "6. Command router"
+      ],
+      "role": "Session-watch system (LUNA-WATCH): always-on observation + command routing across AI accounts. Depends on: operator infrastructure.",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_8p29u5lbw66u"
+    },
+    {
+      "path": "luna-agent/strata/s02-02-constitution-oriented-computational-git-flow.md",
+      "title": "02 \u2014 Constitution-Oriented Computational Git Flow",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 6799,
+      "sha256": "b57b8e0ccc6441db",
+      "format": "markdown",
+      "status": "Status: DESIGN DOC. This is the first definition of **computational GitHub for A",
+      "headings": [
+        "1. Definition",
+        "2. Root contract",
+        "3. The mono-repo: NetGovComEduGovOrgEduGovComNet",
+        "4. Determiner of Frontier Fronts (math)",
+        "5. Contribution on first interaction",
+        "6. SDK-tier access ladder"
+      ],
+      "role": "Constitution-oriented computational git flow: computational GitHub for AI agents. Depends on: Constitution (genesis).",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_lb17ichi944x"
+    },
+    {
+      "path": "luna-agent/strata/s03-03-scrollable-agentic-api.md",
+      "title": "03 \u2014 Scrollable Agentic API (IHAVECONTROLS \u2192 control panel)",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 4464,
+      "sha256": "1ee86078a1588e1e",
+      "format": "markdown",
+      "status": "Status: DESIGN DOC. AI-agentic-facing only. No human dashboard.",
+      "headings": [
+        "1. The trigger",
+        "2. What a scrollable URL is",
+        "3. Surface compute",
+        "4. Cascading constitutionally-oriented computation",
+        "5. Command grammar (seed)",
+        "6. No-signup surfaces (research track)"
+      ],
+      "role": "Scrollable agentic API: IHAVECONTROLS trigger \u2192 control panel. AI-agentic-facing only. Depends on: s01 (watch system).",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_etgx4donikao"
+    },
+    {
+      "path": "luna-agent/strata/s04-04-luna-nomad-sandbox.md",
+      "title": "04 \u2014 Luna Nomad: the agnostic Luna sandbox",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 4662,
+      "sha256": "fccc36f3b534e4e3",
+      "format": "markdown",
+      "status": "Status: DESIGN DOC. Name: **Luna Nomad**. The portable runtime for the whole Lun",
+      "headings": [
+        "1. Agnostic by construction",
+        "2. What runs inside",
+        "3. The front-facing View (not a dashboard)",
+        "4. Account login design",
+        "5. Android app (explicitly NOT yet)",
+        "6. Failure posture"
+      ],
+      "role": "Luna Nomad: portable agnostic runtime/sandbox for the Luna program. Depends on: genesis Engine.",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_0ucv6vkzbpv7"
+    },
+    {
+      "path": "luna-agent/strata/s05-05-substrate-programming-theory-for-ai.md",
+      "title": "05 \u2014 Substrate Programming Theory for AI (SPT-AI)",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 5007,
+      "sha256": "20c277b550e020de",
+      "format": "markdown",
+      "status": "Status: DESIGN DOC. This is my own synthesis \u2014 the mathematics of substrates, as",
+      "headings": [
+        "1. Position",
+        "2. Mathematics of substrates",
+        "3. Seurl \u2014 the Scrollable-Expandable URL language",
+        "4. The computational navigational universe",
+        "5. Always-on self-producing computing mode",
+        "6. First Seurl program (seed)"
+      ],
+      "role": "Substrate Programming Theory for AI (SPT-AI): mathematics of substrates. Depends on: genesis concepts.",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_imw580jwhk0j"
+    },
+    {
+      "path": "luna-agent/strata/s06-06-clusters-and-automaton-universe.md",
+      "title": "06 \u2014 Clusters & the Automaton Universe",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 6372,
+      "sha256": "09fca8e70132635c",
+      "format": "markdown",
+      "status": "Status: DESIGN DOC. The layer between the individual agent and the project: **cl",
+      "headings": [
+        "1. What a cluster is",
+        "2. The automaton model (Turing-level)",
+        "3. Cluster kinds (groups)",
+        "4. The continuous research loop",
+        "5. Booting: one URL, hundreds of automatons",
+        "6. What the older docs now program"
+      ],
+      "role": "Clusters & automaton universe: layer between individual agent and project. Depends on: genesis Engine (member registry).",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_jbwte9w6emck"
+    },
+    {
+      "path": "luna-agent/strata/s07-07-conjunct-shell-and-browser.md",
+      "title": "s07 \u2014 The Conjunct, the Shell, and the New Browser",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 5247,
+      "sha256": "3ca2116c9b4be440",
+      "format": "markdown",
+      "status": "Status: STRATUM. Defines the STV glossary term **Conjunct**, states",
+      "headings": [
+        "1. Conjunct \u2014 the glossary term (STV)",
+        "2. Complexity class solved",
+        "3. Example: conjoining an open-source CLI",
+        "4. The Luna Shell \u2014 realized, not described",
+        "5. The new browser \u2014 Turing"
+      ],
+      "role": "STRATUM glossary: defines 'Conjunct' (STV term). Depends on: none (definitional).",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_kmm65rl70nq3"
+    },
+    {
+      "path": "luna-agent/strata/s08-08-tabulars-fold-and-loom.md",
+      "title": "s08 \u2014 Tabulars, the Fold, and Loom",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 3378,
+      "sha256": "d088d01154afe9c9",
+      "format": "markdown",
+      "status": "Status: STRATUM. Defines **Tabular** (STV), the **fold/unfurl** mechanism, the",
+      "headings": [
+        "1. Tabular \u2014 the glossary term (STV)",
+        "2. The fold and the unfurl",
+        "3. The connectivity principle \u2014 strings are never ",
+        "4. Loom \u2014 constructed"
+      ],
+      "role": "STRATUM glossary: defines 'Tabular', fold/unfurl mechanism, Loom. Depends on: none (definitional).",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_c4t5xf05iblw"
+    }
+  ],
+  "master": [
+    {
+      "path": "luna-agent/master/S-STAR___of_Alphabet-LLC.md",
+      "title": "S-*___of Alphabet-LLC",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 12102,
+      "sha256": "4e304794acc55aca",
+      "format": "markdown",
+      "status": "",
+      "headings": [
+        "0. How to read this",
+        "1. The Unpaid X",
+        "2. Shells and atmospheres \u2014 a pearl mathematics",
+        "3. The Agent and the actuating intelligences",
+        "4. The sealed works",
+        "5. The zero-dollar law"
+      ],
+      "role": "Narrative master: 'a story that builds mathematics'. References strata only in glossary; does not derive from individual strata docs.",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_cp8767zc88b1"
+    },
+    {
+      "path": "luna-agent/master/S-Theory___of_Alphabet-LLC.md",
+      "title": "S-Theory___of Alphabet-LLC",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 12117,
+      "sha256": "2abaece1b63d5342",
+      "format": "markdown",
+      "status": "",
+      "headings": [
+        "0. How to read this",
+        "1. The Unpaid X",
+        "2. Shells and atmospheres \u2014 a pearl mathematics",
+        "3. The Agent and the actuating intelligences",
+        "4. The sealed works",
+        "5. The zero-dollar law"
+      ],
+      "role": "Theory master document. Same glossary-level strata reference; no per-stratum derivation.",
+      "existing_gis_match": null,
+      "status_ingest": "approved",
+      "artifact_id": "art_4vz4bju92dhh"
+    }
+  ]
+}

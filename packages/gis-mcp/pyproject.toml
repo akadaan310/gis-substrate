@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gis-mcp"
+version = "0.1.0"
+description = "Local MCP bridge for GIS (Substrate) — bootstrap, search, and continuity tools for AI sessions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+# Zero third-party dependencies: stdlib only (json, urllib, hashlib, os, sys).
+
+[project.scripts]
+gis-mcp-server = "gis_mcp.gis_mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["gis_mcp*"]

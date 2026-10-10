@@ -1,0 +1,76 @@
+{
+  "repo": "substrate",
+  "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+  "documents": [
+    {
+      "path": "README.md",
+      "status": "missing"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 11207,
+      "sha256": "362e182b9fd4bdc6",
+      "status": "approved",
+      "note": "False positive: 'token=' appears in documentation, no credential values present.",
+      "artifact_id": "art_elfefhz5xdmv"
+    },
+    {
+      "path": "docs/GIS_BOOTSTRAP_CONTRACT_V1.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 2951,
+      "sha256": "d8aadde1050f41b9",
+      "status": "approved",
+      "artifact_id": "art_0iqtmisaie1t"
+    },
+    {
+      "path": "docs/GIS_BRIDGE_PROPOSAL.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 2796,
+      "sha256": "0d3cf35f735422dd",
+      "status": "approved",
+      "artifact_id": "art_uybxlhqlhoxv"
+    },
+    {
+      "path": "docs/DEPLOY.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 3915,
+      "sha256": "6ca9c218948d0e94",
+      "status": "approved",
+      "artifact_id": "art_oyvxlen9l5ar"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 3732,
+      "sha256": "f0a7773df75034d3",
+      "status": "approved",
+      "artifact_id": "art_tbjqf6hc5nnc"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 5046,
+      "sha256": "baf29f5d5d03a078",
+      "status": "approved",
+      "artifact_id": "art_vvw1a49mbep0"
+    },
+    {
+      "path": "packages/gis-mcp/README.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 1701,
+      "sha256": "ede2017755abc2e6",
+      "status": "approved",
+      "note": "False positive: 'token=' appears in documentation, no credential values present.",
+      "artifact_id": "art_6gj4wqk0zsno"
+    },
+    {
+      "path": "packages/gis-mcp/THREAT_MODEL.md",
+      "commit": "cdd39ae42e74ee11d1b4a508c7e69e36642c6b5b",
+      "size": 1628,
+      "sha256": "0027203bb5ef24ea",
+      "status": "approved",
+      "artifact_id": "art_2et3uojvp5hr"
+    }
+  ]
+}

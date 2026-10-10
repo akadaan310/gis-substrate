@@ -1,0 +1,45 @@
+{
+  "repo": "MUSA",
+  "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+  "branch": "master",
+  "canonical_url": "https://github.com/akadaan310/MUSA",
+  "strata": "genesis",
+  "documents": [
+    {
+      "path": "luna-agent/genesis/CONSTITUTION.md",
+      "title": "Constitution of the Seed Engine",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 1803,
+      "sha256": "3c2089b1eb5dacb0",
+      "role": "Foundational law: everything runs, one space, continuity, honesty of evidence",
+      "dependencies": "CONSTITUTION.md -> ENGINE.md (law referenced by spec)",
+      "existing_gis_match": "clm_4truxki15sim (genesis constitution, partial)",
+      "status": "approved",
+      "artifact_id": "art_dwy116xfacuf"
+    },
+    {
+      "path": "luna-agent/genesis/ENGINE.md",
+      "title": "Seed Engine \u2014 specification",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 2814,
+      "sha256": "ca88a816733d4983",
+      "role": "Engine spec: components (genesis block, constitution, loop driver, member registry, awareness bus, frontier uplink)",
+      "dependencies": "ENGINE.md -> CONSTITUTION.md, genesis-block.md",
+      "existing_gis_match": "clm_4truxki15sim (genesis constitution, partial)",
+      "status": "approved",
+      "artifact_id": "art_kzwfhwhlzrcx"
+    },
+    {
+      "path": "luna-agent/genesis/genesis-block.md",
+      "title": "SEED MASTER \u2014 Initial Launch",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 3767,
+      "sha256": "c2403f1e838b0571",
+      "role": "Boot document: identity composition, loop, honesty rules, communication. The engine's initial state.",
+      "dependencies": "genesis-block.md -> ENGINE.md, CONSTITUTION.md",
+      "existing_gis_match": "clm_4truxki15sim (genesis constitution, partial)",
+      "status": "approved",
+      "artifact_id": "art_ufyy0lp7k16s"
+    }
+  ]
+}

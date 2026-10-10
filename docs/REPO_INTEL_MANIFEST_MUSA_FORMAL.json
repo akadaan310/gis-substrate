@@ -1,0 +1,109 @@
+{
+  "repo": "MUSA",
+  "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+  "branch": "master",
+  "canonical_url": "https://github.com/akadaan310/MUSA",
+  "layer": "formal",
+  "documents": [
+    {
+      "path": "luna-agent/theory/S-THEORY.md",
+      "title": "S-Theory v0 \u2014 the theory of the String-Substrate",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 4177,
+      "sha256": "09882eb65657a7a0",
+      "classification": "axiom-set",
+      "priority": "Priority 1: 7 articles (S1-S7) \u2014 axioms, definitions, explicitly-marked unresolved (S5 asserted not derived; Law of Forms missing). 5 normative build demands.",
+      "dependencies": "Depends on: genesis (substrate, fold, idstamp concepts). Referenced by: s05 (SPT-AI).",
+      "existing_gis_match": null,
+      "status": "approved",
+      "artifact_id": "art_mlmivks2rxtm"
+    },
+    {
+      "path": "luna-agent/protocols/NOT.md",
+      "title": "\u00ac \u2014 not theory",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 1646,
+      "sha256": "8fea57585239ae25",
+      "classification": "definition+derivation",
+      "priority": "Priority 1: \u00ac-unit definition, composition rule (derivation), substrate law. Foundation for composition.md.",
+      "dependencies": "Depends on: S-* (named the substrate). Referenced by: composition.md.",
+      "existing_gis_match": null,
+      "status": "approved",
+      "artifact_id": "art_unqi74c51b0o"
+    },
+    {
+      "path": "luna-agent/protocols/composition.md",
+      "title": "Composition \u2014 how to write any program from the simplest forms",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 2599,
+      "sha256": "290a790961fc94cf",
+      "classification": "protocol",
+      "priority": "Priority 2: built on \u00ac. Store/map/runnable/program-URLs/loop. Normative taxonomy rule.",
+      "dependencies": "Depends on: NOT.md, url-machine.md.",
+      "existing_gis_match": null,
+      "status": "approved"
+    },
+    {
+      "path": "luna-agent/protocols/url-machine.md",
+      "title": "URL-MACHINE \u2014 protocol sheet",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 2072,
+      "sha256": "6d0370010abfae55",
+      "classification": "protocol",
+      "priority": "Priority 2: particles (definitions), invariant (one shared state machine), 7 verbs, transitions. Normative.",
+      "dependencies": "Depends on: none (foundational). Referenced by: composition.md.",
+      "existing_gis_match": null,
+      "status": "approved"
+    },
+    {
+      "path": "luna-agent/protocols/NAI-CI.md",
+      "title": "NAI-CI \u2014 Non-human AI\u2013Computer Interaction (tested version)",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 10199,
+      "sha256": "45236b13bef59044",
+      "classification": "tested-protocol",
+      "priority": "Priority 3: standing rule (normative) + 4 structures with HELD/BROKE/CHANGED verdicts, verified 2026-09-28.",
+      "dependencies": "Depends on: browser-hand harness. Referenced by: none yet.",
+      "existing_gis_match": null,
+      "status": "approved",
+      "artifact_id": "art_olw4hq2gzh9i"
+    },
+    {
+      "path": "luna-agent/protocols/CAPABILITIES.md",
+      "title": "CAPABILITY MAP \u2014 verified by the tab neighborhood",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 4699,
+      "sha256": "609fc6ae21012870",
+      "classification": "verified-map",
+      "priority": "Priority 3: 20 tabs \u00d7 capabilities with verdicts, 2026-09-28. Evidence table.",
+      "dependencies": "Depends on: tab neighborhood harness.",
+      "existing_gis_match": null,
+      "status": "approved",
+      "artifact_id": "art_8s4360bwagyb"
+    },
+    {
+      "path": "luna-agent/protocols/ramz/ramz.py",
+      "title": "ramz \u2014 the golden seal (code)",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 2141,
+      "sha256": "0a63095e32af7939",
+      "classification": "code-excluded",
+      "priority": "EXCLUDED from doc ingestion: Python implementation. Noted for provenance.",
+      "dependencies": "Depends on: hashlib, json.",
+      "existing_gis_match": null,
+      "status": "excluded"
+    },
+    {
+      "path": "luna-agent/protocols/tests/session-7u.md",
+      "title": "Handoff prompt \u2014 new session: 7U",
+      "commit": "d797135727787124d18193f04af26d6c3fed03a5",
+      "size": 4735,
+      "sha256": "2bf0cbfcfe70d191",
+      "classification": "test-record-excluded",
+      "priority": "EXCLUDED: session handoff prompt, not formal theory. Lower priority.",
+      "dependencies": "Depends on: none.",
+      "existing_gis_match": null,
+      "status": "excluded"
+    }
+  ]
+}

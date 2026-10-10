@@ -1,0 +1,2 @@
+[console_scripts]
+gis-mcp-server = gis_mcp.gis_mcp_server:main
